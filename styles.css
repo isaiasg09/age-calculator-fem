@@ -70,6 +70,57 @@ main {
   font-weight: 700;
   color: var(--off-black);
 }
+
+.submit_container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.submit_container hr {
+  width: 100%;
+  height: min-content;
+  border: solid;
+  border-color: var(--off-white);
+  border-width: 1px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.submit_container button {
+  background-color: var(--purple);
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: none;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+.submit_container button:hover {
+  filter: brightness(1.2);
+  -webkit-filter: brightness(1.2);
+}
+
+.submit_container button:active {
+  transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
