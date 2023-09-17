@@ -121,6 +121,25 @@ main {
   -o-transform: scale(0.8);
 }
 
+.results_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 56px;
+  line-height: 7rem;
+  font-style: italic;
+}
+
+.results_container div {
+  display: flex;
+  flex-direction: row;
+}
+
+.results_container .result {
+  color: var(--purple);
+  margin-right: 1rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
